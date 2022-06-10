@@ -1,0 +1,92 @@
+{
+  "xdctest": {
+    "xdcBridgeTokenAdmin": "0x852e7627aEFF3ed6105F600D985cC6f74DBd6640",
+    "treasuryAddress": "0x852e7627aEFF3ed6105F600D985cC6f74DBd6640",
+    "minConfirmations": 1,
+    "confirmationThreshold": 1,
+    "excessConfirmations": 1,
+    "oracles": [
+      "0x23c7d932dc43952e1b39b0f4d9e70e5f2e58abb9"
+    ],
+    "deploy": {
+      "wethGate": true
+    },
+    "external": {
+      "WETH": "0x734dF5346c504C9f30aB5078E02Df041cEC27e9c",
+      "WETHName": "Wrapped XDC",
+      "WETHSymbol": "WXDC",
+      "UniswapFactory": "0x7fD4994558d4717bce2Dc3C9a8B9fBf952F87E86"
+    },
+    "supportedChains": [
+      3
+    ],
+    "fixedNativeFee": [
+      "10000000000000000"
+    ],
+    "globalFixedNativeFee": "10000000000000000",
+    "globalTransferFeeBps": "10",
+    "chainSupportInfo": [
+      {
+        "fixedNativeFee": "0",
+        "transferFeeBps": "0",
+        "isSupported": true
+      }
+    ]
+  },
+  "ropsten": {
+    "xdcBridgeTokenAdmin": "0x852e7627aEFF3ed6105F600D985cC6f74DBd6640",
+    "treasuryAddress": "0x852e7627aEFF3ed6105F600D985cC6f74DBd6640",
+    "minConfirmations": 1,
+    "confirmationThreshold": 1,
+    "excessConfirmations": 1,
+    "oracles": [
+      "0x23c7d932dc43952e1b39b0f4d9e70e5f2e58abb9"
+    ],
+    "deploy": {
+      "wethGate": true
+    },
+    "external": {
+      "WETH": "0xC49A05d2f0ea86A23271d8E8b0245A4A461bC253",
+      "WETHName": "Wrapped Ether",
+      "WETHSymbol": "WETH",
+      "UniswapFactory": "0xC45bb04B6db98941ed746e6E424221ef6F1a3412"
+    },
+    "supportedChains": [
+      50
+    ],
+    "fixedNativeFee": [
+      "10000000000000000"
+    ],
+    "globalFixedNativeFee": "10000000000000000",
+    "globalTransferFeeBps": "10",
+    "chainSupportInfo": [
+      {
+        "fixedNativeFee": "0",
+        "transferFeeBps": "0",
+        "isSupported": true
+      }
+    ]
+  },
+  "overridedTokens": [
+    {
+      "address": "0xC49A05d2f0ea86A23271d8E8b0245A4A461bC253",
+      "chainId": 3
+    },
+    {
+      "address": "0x734dF5346c504C9f30aB5078E02Df041cEC27e9c",
+      "chainId": 50
+    }
+  ],
+  "overridedTokensInfo": [
+    {
+      "accept": true,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    },
+    {
+      "accept": true,
+      "name": "Wrapped XDC",
+      "symbol": "WXDC"
+    }
+  ]
+}
